@@ -17,7 +17,7 @@
       "type": "string",
       "name": "ADAPTER_CUSTOM_STRING",
       "required": true,
-      "defaultValue": "18"
+      "defaultValue": "abc"
     },
     {
       "displayName": "Boolean",
@@ -25,7 +25,7 @@
       "type": "boolean",
       "name": "ADAPTER_CUSTOM_BOOLEAN",
       "required": true,
-      "defaultValue": "18"
+      "defaultValue": false
     },
     {
       "displayName": "Number (default: null)",
