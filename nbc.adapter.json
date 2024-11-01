@@ -31,7 +31,7 @@
       "displayName": "Number (default: null)",
       "description": "Input a number as a custom adapter envVar field.",
       "type": "number",
-      "name": "ADAPTER_CUSTOM_NUMBER",
+      "name": "ADAPTER_CUSTOM_NUMBER_OPT",
       "required": true,
       "defaultValue": null
     },
@@ -39,7 +39,7 @@
       "displayName": "String (default: null)",
       "description": "Input a string as a custom adapter envVar field",
       "type": "string",
-      "name": "ADAPTER_CUSTOM_STRING",
+      "name": "ADAPTER_CUSTOM_STRING_OPT",
       "required": true,
       "defaultValue": null
     },
@@ -47,7 +47,7 @@
       "displayName": "Boolean (default: null)",
       "description": "Input a boolean as a custom adapter envVar field",
       "type": "boolean",
-      "name": "ADAPTER_CUSTOM_BOOLEAN",
+      "name": "ADAPTER_CUSTOM_BOOLEAN_OPT",
       "required": true,
       "defaultValue": null
     }
