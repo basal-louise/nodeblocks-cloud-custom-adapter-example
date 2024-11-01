@@ -4,12 +4,52 @@
   "version": "1.0.0",
   "configs": [
     {
-      "displayName": "Age of majority",
-      "description": "The Age used to check if the user is adult.",
+      "displayName": "Number",
+      "description": "Input a number as a custom adapter envVar field.",
       "type": "number",
-      "name": "ADAPTER_CUSTOM_AGE_OF_MAJORITY",
+      "name": "ADAPTER_CUSTOM_NUMBER",
       "required": true,
       "defaultValue": "18"
+    },
+    {
+      "displayName": "String",
+      "description": "Input a string as a custom adapter envVar field",
+      "type": "string",
+      "name": "ADAPTER_CUSTOM_STRING",
+      "required": true,
+      "defaultValue": "18"
+    },
+    {
+      "displayName": "Boolean",
+      "description": "Input a boolean as a custom adapter envVar field",
+      "type": "boolean",
+      "name": "ADAPTER_CUSTOM_BOOLEAN",
+      "required": true,
+      "defaultValue": "18"
+    },
+    {
+      "displayName": "Number (default: null)",
+      "description": "Input a number as a custom adapter envVar field.",
+      "type": "number",
+      "name": "ADAPTER_CUSTOM_NUMBER",
+      "required": true,
+      "defaultValue": null
+    },
+    {
+      "displayName": "String (default: null)",
+      "description": "Input a string as a custom adapter envVar field",
+      "type": "string",
+      "name": "ADAPTER_CUSTOM_STRING",
+      "required": true,
+      "defaultValue": null
+    },
+    {
+      "displayName": "Boolean (default: null)",
+      "description": "Input a boolean as a custom adapter envVar field",
+      "type": "boolean",
+      "name": "ADAPTER_CUSTOM_BOOLEAN",
+      "required": true,
+      "defaultValue": null
     }
   ]
 }
